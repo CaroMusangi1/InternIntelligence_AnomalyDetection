@@ -1,47 +1,43 @@
-# InternIntelligence_AnomalyDetection
-🔍 Anomaly Detection Using Isolation Forest
-📌 Overview
-This project builds an anomaly detection system using Isolation Forest, a popular unsupervised algorithm for identifying outliers in high-dimensional datasets.
+# 🔍 ANOMALY DETECTION USING ISOLATION FOREST
 
-⚙️ Key Features
-Synthetic dataset with imbalanced data to simulate real-world anomaly detection.
+## PROJECT OVERVIEW 📌
+This project builds an **Anomaly Detection** system using **Isolation Forest**, an unsupervised algorithm for identifying outliers in high-dimensional datasets.
 
-Standardized preprocessing using StandardScaler.
+---
 
-Isolation Forest model from scikit-learn.
+## KEY FEATURES ⚙️
+- Synthetic dataset with imbalanced data to simulate real-world anomaly detection  
+- Standardized preprocessing using `StandardScaler`  
+- **Isolation Forest** model from `scikit-learn`  
+- Model evaluation with **Precision**, **Recall**, **F1-score**, and **Confusion Matrix**  
+- Deployment-like function to flag anomalies in new data
 
-Model evaluation using precision, recall, F1-score, and confusion matrix.
+---
 
-A deployment-like function to flag anomalies in new data.
+## TECHNOLOGIES USED 🧪
+- **Python**  
+- **Scikit-learn** — Anomaly detection, model evaluation  
+- **Numpy** & **Pandas** — Data manipulation  
+- **Matplotlib** & **Seaborn** — Visualizations  
+- **Google Colab** — Interactive development
 
-🧪 Technologies Used
-Python
+---
 
-Scikit-learn
+## HOW TO RUN 🚀
+1. Open the code in **Google Colab**  
+2. Run each cell sequentially  
+3. Use the `detect_anomalies()` function to test new data samples
 
-Numpy & Pandas
+---
 
-Matplotlib & Seaborn (for visualization)
+## SAMPLE OUTPUT 📈
+- **Confusion matrix** visualization  
+- **Classification report** with F1, Precision, Recall  
+- Anomaly detection results on new sample data
 
-Google Colab (for interactive development)
+---
 
-🚀 How to Run
-Open the code in Google Colab.
-
-Run each cell sequentially.
-
-Use the detect_anomalies() function to test new data samples.
-
-📈 Sample Output
-Confusion matrix visualization
-
-Classification report with F1, Precision, Recall
-
-Anomaly detection results on new sample data
-
-💡 Next Steps (Optional Enhancements)
-Use a real-world dataset like the Credit Card Fraud Dataset from Kaggle.
-
-Try other models like One-Class SVM or Autoencoders.
-
-Build a simple Streamlit dashboard to visualize anomaly reports
+## NEXT STEPS (OPTIONAL ENHANCEMENTS) 💡
+- Use a real-world dataset, such as the **Credit Card Fraud Dataset** from Kaggle  
+- Try other models like **One-Class SVM** or **Autoencoders**  
+- Build a simple **Streamlit** dashboard to visualize anomaly reports
